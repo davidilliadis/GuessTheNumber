@@ -1,0 +1,69 @@
+:root {
+    --btn-color: teal;   /* χρώμα πλήκτρων  */
+    --btn-text: whitesmoke;   /* χρώμα κειμένου πλήκτρων  */
+    --msg-win-color: rgb(0, 128, 32);  /* χρώμα μηνύματος */
+    --msg-wrong-color: crimson;  /* χρώμα μηνύματος αποτυχίας */
+    --msg-text:floralwhite;  /* χρώμα κειμένου μηνύματος */
+	--low-high-color: gray;  /* χρώμα ιστορικού προσπαθειών */
+}
+
+
+
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  border: 1px solid rgb(111, 187, 212) ;
+}
+/* Πάω την πρόταση "Παιχνίδι: μάντεψε τον αριθμό" λίγο πιο δεξιά */
+header {
+    margin: 0.5em;
+}
+
+/* Πάω την παράγραφο λίγο πιο δεξιά */
+.text {
+    margin: 1em;
+}
+
+/* Πάω την λέξη "μάντεψε" λίγο πιο δεξιά */
+#guess {
+    margin: 1em;
+}
+
+/* Πάω το button "παίξε ξανά" λίγο πιο δεξιά */
+#restart {
+    margin: 1em;
+}
+
+/* Αλλάζω το μήκος του input text */
+#newGuess {
+    width: 3em;
+}
+
+ /* χρώμα πλήκτρων */
+#check {
+    background-color: var(--btn-color);
+}
+ /* χρώμα πλήκτρων */
+#restart {
+    background-color: var(--btn-color);
+    visibility: hidden;
+}
+
+/* χρώμα κειμένου πλήκτρων */
+#check {
+    color: var(--btn-text);
+}
+
+/* χρώμα κειμένου πλήκτρων */
+#restart {
+    color: var(--btn-text);
+}
+
+
+
+
+
+    
+ 
